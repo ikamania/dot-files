@@ -1,0 +1,19 @@
+# Fish
+.config/fish/fish_variables
+.config/fish/fish_history
+
+# Kitty
+.config/kitty/kitty.conf.save*
+.config/kitty/kitty.conf.bak
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.un~
+*.vim~
+*.vi~
+*.shada
+Session.vim
