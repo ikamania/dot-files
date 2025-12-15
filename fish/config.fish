@@ -5,6 +5,13 @@ end
 function fish_greeting
 end
 
+function fish_prompt
+    set_color cyan
+    echo -n (prompt_pwd)
+    set_color blue
+    echo -n " ► "
+end
+
 fish_vi_key_bindings
 
 alias fishconf='v .config/fish/config.fish'
